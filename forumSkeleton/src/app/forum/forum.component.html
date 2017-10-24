@@ -1,0 +1,44 @@
+<h1 id="forumTitle">
+  Welcome to forum's main page
+</h1>
+<hr>
+<div class="container-fluid" id="casuta">
+  <label for="casuta" id="label1">TheTopic {{ topic.id }} </label>
+      <hr>
+        <div class="col-sm-6">
+          <ul class="list-group">
+          <li class="list-group-item"> Ceva <span class="badge">12+</span></li>
+          <li class="list-group-item">Altceva<span class="badge">0</span></li>
+          </ul>
+          </div>
+
+        <div class="col-sm-3" id="item2">
+          <p>REPUTATION <span class="badge">10</span> is needed</p>
+        </div>
+
+      <div class="col-sm-3">
+        <button class="btn btn-success pull-right" id="buttonforum"><a [routerLink]="['/forum', 1]">Enter chat</a></button>
+      </div>
+    <hr>
+</div>
+<!-- <router-outlet></router-outlet> -->
+<div class="container-fluid" id="casuta">
+    <label for="casuta" id="label1">Topic {{ topic.id }} </label>
+  <hr>
+    <div class="col-sm-6">
+      <ul class="list-group">
+      <li class="list-group-item"> Ceva <span class="badge">12+</span></li>
+      <li class="list-group-item">Altceva<span class="badge">0</span></li>
+      </ul>
+      </div>
+
+    <div class="col-sm-3" id="item2">
+      <p>REPUTATION <span class="badge">10</span> is needed</p>
+    </div>
+
+  <div class="col-sm-3">
+    <button class="btn btn-success pull-right" id="buttonforum" [routerLink]="['/forum', 2]">Enter chat</button>
+  </div>
+<hr>
+</div>
+

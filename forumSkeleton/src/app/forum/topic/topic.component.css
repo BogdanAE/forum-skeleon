@@ -1,0 +1,11 @@
+#anchor {
+    color: rgb(0, 0, 0)
+}
+
+#containerChat {
+    height: 250px;
+    width: 85%;
+    border: solid;
+    color: burlywood;
+
+}

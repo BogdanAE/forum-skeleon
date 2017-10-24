@@ -1,0 +1,15 @@
+.topTitle {
+    color: rgba(219, 223, 224, 0.438);
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+#allContent {
+    /* background-color: rgb(104, 104, 104); */
+    background-image:  url("../shared/background-2132910_960_720.jpg");
+    margin: 10px 2px 0px 2px;
+    border-radius: 15px;
+    /* max-width: 99%; */
+}
+

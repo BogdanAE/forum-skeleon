@@ -1,0 +1,11 @@
+.container-fluid {
+    background-image: url("../shared/21159540915_7e740f5217_o.jpg");
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#textPrez  {
+    color: rgb(221, 149, 15);
+    margin-left: 15%;
+    
+}

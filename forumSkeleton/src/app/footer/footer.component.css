@@ -1,0 +1,10 @@
+.container-fluid {
+    background-image: url("../shared/background-2132910_960_720.jpg"); 
+    margin: 10px 2px 0px 2px;
+    border-radius: 10px;
+}
+
+#h3 {
+    color: rgb(248, 247, 247);
+    margin-left: 10%;
+}
